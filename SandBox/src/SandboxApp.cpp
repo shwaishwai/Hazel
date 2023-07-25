@@ -16,5 +16,6 @@ public:
 
 Hazel::Application* Hazel::CreateApplication()
 {
+	HZ_FATAL("THISISATEST");
 	return new Sandbox;
 }
